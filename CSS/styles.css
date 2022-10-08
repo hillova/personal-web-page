@@ -44,6 +44,10 @@ a {
   text-decoration: none;
 }
 
+hr {
+  color: var(--primary-color);
+}
+
 ul li img {
   max-width: 400px;
 }
@@ -81,13 +85,19 @@ a {
   font-weight: 700;
 }
 
-li a:hover {
+li a:hover,
+.icon-container a:hover {
   color: var(--primary-color);
 }
 
+.icon-container i {
+  font-size: 22px;
+}
+
 .landing-page {
-  margin-top: 100px;
+  margin-top: 50px;
   text-align: center;
+  padding: 20px 50px 30px 50px;
 }
 
 .front-page-menu {
@@ -110,8 +120,8 @@ li a:hover {
 }
 
 .container {
-  margin: 50px;
-  padding: 50px;
+  margin: 50px 50px 0 50px;
+  padding: 50px 50px 30px 50px;
 }
 
 .about {
@@ -173,4 +183,9 @@ i {
 
 .contact-page a:hover {
   color: var(--primary-color);
+}
+
+.icon-container {
+  max-width: 600px;
+  margin: 120px auto 0;
 }
