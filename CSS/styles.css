@@ -96,6 +96,11 @@ li a:hover,
 
 .icon-container i {
   font-size: 22px;
+  color: black;
+}
+
+.icon-container i:hover {
+  color: var(--primary-color);
 }
 
 .landing-page {
