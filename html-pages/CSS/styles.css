@@ -2,7 +2,7 @@
   --serif-font: "Playfair Display", serif;
   --sans-serif-font: "Poppins", sans-serif;
   --primary-color: #827397;
-  --secondary-color: #e9d5ca;
+  --secondary-color: #f8ede3;
 }
 
 h1 {
@@ -58,7 +58,7 @@ a {
   font-weight: 700;
 }
 
-a:hover {
+li a:hover {
   color: var(--primary-color);
 }
 
@@ -93,4 +93,19 @@ a:hover {
 .about {
   padding-right: 80px;
   margin-top: 40px;
+  margin-bottom: 60px;
+  line-height: 25px;
+}
+
+.about-button {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  padding: 10px 20px;
+  border-radius: 30px;
+}
+
+.about-button:hover {
+  background-color: #d0b8a8;
+  color: var(--primary-color);
+  transition: all 150ms ease-in-out;
 }
