@@ -1,7 +1,7 @@
 :root {
   --serif-font: "Playfair Display", serif;
   --sans-serif-font: "Poppins", sans-serif;
-  --primary-color: #363062;
+  --primary-color: #827397;
   --secondary-color: #e9d5ca;
 }
 
@@ -9,6 +9,19 @@ h1 {
   font-family: var(--serif-font);
   font-weight: 700;
   font-size: 96px;
+}
+
+h2 {
+  font-family: var(--serif-font);
+  font-size: 45px;
+}
+
+h3 {
+  font-size: 16px;
+  font-weight: 700;
+  padding-top: 20px;
+  padding-bottom: 25px;
+  color: var(--primary-color);
 }
 
 p {
@@ -34,6 +47,12 @@ li {
   list-style: none;
 }
 
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 20px;
+}
+
 a {
   color: black;
   font-weight: 700;
@@ -49,7 +68,7 @@ a:hover {
 }
 
 .front-page-menu {
-  max-width: 600px;
+  max-width: 500px;
   margin: auto;
 }
 
@@ -61,4 +80,17 @@ a:hover {
 .description {
   margin-top: 40px;
   font-size: 22px;
+}
+
+.about-description {
+  padding-left: 60px;
+}
+
+.container {
+  margin: 100px;
+}
+
+.about {
+  padding-right: 80px;
+  margin-top: 40px;
 }
