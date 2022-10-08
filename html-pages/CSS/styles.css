@@ -38,7 +38,12 @@ a {
   text-decoration: none;
 }
 
-ul {
+ul li img {
+  max-width: 400px;
+}
+
+.landing-page ul,
+nav ul {
   margin-top: 80px;
   text-align: center;
 }
@@ -87,11 +92,12 @@ li a:hover {
 }
 
 .container {
-  margin: 100px;
+  margin: 50px;
+  padding: 50px;
 }
 
 .about {
-  padding-right: 80px;
+  padding-right: 50px;
   margin-top: 40px;
   margin-bottom: 60px;
   line-height: 25px;
@@ -108,4 +114,13 @@ li a:hover {
   background-color: #d0b8a8;
   color: var(--primary-color);
   transition: all 150ms ease-in-out;
+}
+
+.cv-page h2 {
+  text-align: center;
+  margin-bottom: 50px;
+}
+.cv-page h3 {
+  padding-bottom: 0px;
+  margin-top: 40px;
 }
