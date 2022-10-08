@@ -42,10 +42,22 @@ ul li img {
   max-width: 400px;
 }
 
-.landing-page ul,
-nav ul {
+.landing-page ul {
   margin-top: 80px;
   text-align: center;
+}
+
+.landing-page a {
+  color: var(--primary-color);
+}
+
+.landing-page a:hover {
+  color: black;
+}
+
+nav ul {
+  text-align: center;
+  margin: 30px;
 }
 
 li {
@@ -116,7 +128,8 @@ li a:hover {
   transition: all 150ms ease-in-out;
 }
 
-.cv-page h2 {
+.cv-page h2,
+.portfolio-page h2 {
   text-align: center;
   margin-bottom: 50px;
 }
