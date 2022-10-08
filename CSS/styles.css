@@ -24,6 +24,12 @@ h3 {
   color: var(--primary-color);
 }
 
+h4 {
+  font-size: 16px;
+  font-weight: 700;
+  margin-top: 30px;
+}
+
 p {
   font-family: var(--sans-serif-font);
 }
@@ -139,8 +145,21 @@ li a:hover {
   margin-top: 40px;
 }
 
-.contact-page {
+.contact-page,
+.portfolio-page {
   text-align: center;
+}
+
+.portfolio-page img {
+  max-height: 350px;
+}
+
+.portfolio-page a p {
+  font-weight: 400;
+}
+
+.portfolio-page a:hover {
+  color: var(--primary-color);
 }
 
 .contact-page p,
