@@ -52,6 +52,10 @@ ul li img {
   max-width: 400px;
 }
 
+ul {
+  padding: 0;
+}
+
 .landing-page ul {
   margin-top: 80px;
   text-align: center;
@@ -162,6 +166,7 @@ li a:hover,
 
 .portfolio-page img {
   max-height: 350px;
+  width: auto;
 }
 
 .portfolio-page a p {
@@ -188,4 +193,52 @@ i {
 .icon-container {
   max-width: 600px;
   margin: 120px auto 0;
+}
+
+@media (max-width: 900px) {
+  body {
+    max-width: 900px;
+    display: block;
+    text-align: center;
+  }
+
+  .landing-page {
+    padding: 0;
+  }
+
+  h1 {
+    font-size: 80px;
+  }
+  .container {
+    text-align: center;
+    margin: 0;
+    padding: 15px;
+  }
+
+  .front-page-menu ul {
+    padding: 0;
+  }
+
+  .icon-container {
+    max-width: 600px;
+    margin: 50px auto 0;
+  }
+  nav ul {
+    padding: 0;
+    margin: 10px;
+  }
+  .about-description {
+    padding: 0;
+  }
+
+  .about {
+    padding: 0;
+  }
+  .cv-page {
+    max-width: 900px;
+  }
+  .cv-page img {
+    max-height: 150px;
+    margin-bottom: 20px;
+  }
 }
