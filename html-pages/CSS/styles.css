@@ -120,7 +120,25 @@ li a:hover {
   text-align: center;
   margin-bottom: 50px;
 }
-.cv-page h3 {
+.cv-page h3,
+.contact-page h3 {
   padding-bottom: 0px;
   margin-top: 40px;
+}
+
+.contact-page {
+  text-align: center;
+}
+
+.contact-page p,
+i {
+  font-size: 20px;
+}
+
+.contact-page a {
+  font-weight: 400;
+}
+
+.contact-page a:hover {
+  color: var(--primary-color);
 }
